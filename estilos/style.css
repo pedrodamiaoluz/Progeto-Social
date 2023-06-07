@@ -7,9 +7,8 @@
 }
 
 html,body{
-    height: 100vh;
-    width: 100vh;
-    
+    height: 99vw;
+    width: 99vw;
 }
 
 body{
@@ -17,6 +16,7 @@ body{
     no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main{
@@ -46,6 +46,8 @@ iframe#tela{
 
 section#redes-social{
     text-align: right;
+    margin: 100px right;
+    
 }
 
 section#redes-social img{
@@ -61,4 +63,5 @@ section#redes-social img:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px black;
     transition: transform .3s, border 1s;
+
 }
